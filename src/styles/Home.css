@@ -1,0 +1,141 @@
+.home-section {
+  width: 100%;
+  background-color: #ffffff; /* Set background to white */
+  min-height: 100vh; /* Ensure the element takes up the full viewport height */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Allow centering content */
+  flex-direction: column; /* Center content vertically */
+  justify-content: center; /* Center content vertically */
+  position: relative;
+}
+
+/* Ensure the content is responsive */
+.home-content {
+  color: #333333; /* Dark color for text readability on white background */
+  padding: 20px;
+  text-align: center;
+}
+
+.home-header {
+  padding: 2rem 1rem; /* Adjust padding for smaller screens */
+}
+
+.home-logo {
+  max-height: 450px;
+  width: auto; /* Ensures logo scales with screen size */
+}
+
+/* Ensure text is readable on smaller screens */
+.intro-heading {
+  font-size: 2rem; /* Adjust font size for smaller screens */
+  color: #333333; /* Dark color for headings */
+}
+
+.home-about-body {
+  font-size: 1rem; /* Adjust font size for smaller screens */
+  line-height: 1.5;
+  color: #666666; /* Medium color for body text */
+}
+
+.home-avatar-col {
+  text-align: center;
+}
+
+.avatar {
+  max-width: 100%;
+  height: auto; /* Ensures avatar scales with screen size */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .home-header .heading {
+    font-size: 1.8rem; /* Adjust font size for smaller screens */
+  }
+
+  .home-header .heading-name {
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .home-about-section {
+    padding: 1.5rem 0; /* Adjust padding for smaller screens */
+  }
+
+  .intro-heading {
+    font-size: 1.8rem; /* Adjust font size for smaller screens */
+  }
+
+  .home-about-body {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Additional styles for the home-about-social section */
+.home-about-social {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.home-about-social h1 {
+  font-size: 2rem; /* Adjust font size for the heading */
+  color: #333333; /* Dark color for headings */
+  margin-bottom: 1rem;
+}
+
+.home-about-social p {
+  font-size: 1.2rem; /* Adjust font size for the paragraph */
+  color: #666666; /* Medium color for the text */
+  margin-bottom: 2rem;
+}
+
+/* Styles for social icons and links */
+.home-about-social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.home-about-social-links .social-icons {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.home-about-social-links .icon-colour {
+  color: #333333; /* Dark color for icons */
+  font-size: 2rem; /* Icon size */
+}
+
+.home-about-social-links .icon-colour:hover {
+  color: #ffcc00; /* Bright color for hover effect */
+}
+
+.typewriter-container {
+  color: #333333; /* Dark color for typewriter text */
+  font-size: 2rem; /* Increase font size */
+}
+
+.typewriter-container .typewriter {
+  color: #a1c4fd; /* Color of the typewriter text */
+}
+
+/* Updated styles for text to improve visibility on white background */
+
+.home-about-description {
+  color: #666666; /* Medium color for better readability */
+}
+
+.intro-heading {
+  color: #333333; /* Dark color for main heading */
+}
+
+.home-about-body {
+  color: #666666; /* Medium color for body text */
+}
+
+/* Optional: Add additional styling for text emphasis */
+.home-about-body b {
+  color: #a1c4fd; /* Highlight color for emphasized text */
+}
+
+.home-about-body i {
+  color: #333333; /* Ensure italicized text is readable */
+}
