@@ -77,7 +77,7 @@ function Projects() {
             isBlog={false}
             title="Website Coffee"
             description="This project is a web application for a coffee shop, developed using Node.js, Supabase, and ReactJS. It features a user-friendly interface for browsing coffee products, managing orders, and handling customer interactions. The backend leverages Supabase for efficient data management, while ReactJS powers a dynamic and responsive user experience."
-            ghLink="https://github.com/soumyajit4419/Chatify"
+            ghLink="https://github.com/kimngan295/be_coffee"
             demoLink="https://github.com/kimngan295/be_coffee"
           />
         </Grid>
@@ -88,7 +88,7 @@ function Projects() {
             isBlog={false}
             title="Stock Predict CNN "
             description="This project involves predicting stock prices using a Convolutional Neural Network (CNN) model implemented in Python. It leverages CNNs to analyze historical stock data and forecast future trends, providing insights for informed investment decisions."
-            ghLink="https://github.com/soumyajit4419/Chatify"
+            ghLink="https://github.com/doankhoa126/LSTM_SCNN"
             demoLink="https://github.com/doankhoa126/LSTM_SCNN"
           />
         </Grid>
